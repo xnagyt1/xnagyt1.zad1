@@ -1,25 +1,59 @@
-- title: Casnik
-  content: 'je to trieda ktorá obsahuje základné údaje charakterizujúce casnika (meno, heslo). 
-            Obsahuje dôležité metódy **prihlas(String, String)** - metóda vytvorí nové grafické okno pre casníka, napiskomu(String) - 
-            metóda určuje objednávateľa, **napiskdesedi (*String*)** - metóda určuje miesto objednávateľa, napiskolko (String) - 
-            metóda určuje cenu objednávky, hotovy(String), **prepis(Casnik, String)** - 
-            prepíše súbor v ktorom sú údaje zachované tak aby už hotové objednávky tam neboli . Táto trieda dedí od triedy Pracovnik.'
+  - title: Casnik
+    content: 'je to trieda ktorá obsahuje základné údaje charakterizujúce casnika (*meno*, *heslo*). 
+              Obsahuje dôležité metódy **prihlas(*String*, *String*)** - metóda vytvorí nové grafické okno pre casníka, **napiskomu(*String*)** - 
+              metóda určuje objednávateľa, **napiskdesedi (*String*)** - metóda určuje miesto objednávateľa, **napiskolko (*String*)** - 
+              metóda určuje cenu objednávky, **hotovy(*String*)**, **prepis(*Casnik*, *String*)** - 
+              prepíše súbor v ktorom sú údaje zachované tak aby už hotové objednávky tam neboli . Táto trieda dedí od triedy Pracovnik.'
 
-- title: Kuchar
-  content: 'je to trieda ktorá obsahuje základné údaje charakterizujúce kuchára (meno, heslo). 
-          Obsahuje dôležité metódy **prihlas(String, String)** - metóda vytvorí nové grafické okno pre kuchára, napiscorobi(String) - 
-          metóda určuje že kuchár aktuálne čo má robyť, **hotovy(String)**, **prepis(Kuchar)** - 
-          prepíše súbor v ktorom sú údaje zachované tak aby už hotové objednávky tam neboli a 
-          už hotové objednávky podľa objednávateľa zapíše do iných súborov. Táto trieda dedí od triedy Pracovnik.'
+  - title: Kuchar
+    content: 'je to trieda ktorá obsahuje základné údaje charakterizujúce kuchára (*meno*, *heslo*). 
+            Obsahuje dôležité metódy **prihlas(*String*, *String*)** - metóda vytvorí nové grafické okno pre kuchára, **napiscorobi(*String*)** - 
+            metóda určuje že kuchár aktuálne čo má robyť, **hotovy(*String*)**, **prepis(*Kuchar*)** - 
+            prepíše súbor v ktorom sú údaje zachované tak aby už hotové objednávky tam neboli a 
+            už hotové objednávky podľa objednávateľa zapíše do iných súborov. Táto trieda dedí od triedy Pracovnik.'
 
-- title: Kurier
-  content: 'je to trieda ktorá obsahuje základné údaje charakterizujúce kuriera (meno, heslo). 
-            Obsahuje dôležité metódy prihlas(String, String) - metóda vytvorí nové grafické okno pre kuriera, napiskomu(String) - 
-            metóda určuje objednávateľa, napiskdebyva (String) - metóda určuje bydlisko objednávateľa, napiskolko (String) - 
-            metóda určuje cenu objednávky, hotovy(String), prepis(Kurier, String) - 
-            prepíše súbor v ktorom sú údaje zachované tak aby už hotové objednávky tam neboli. Táto trieda dedí od triedy Pracovnik.'
+  - title: Kurier
+    content: 'je to trieda ktorá obsahuje základné údaje charakterizujúce kuriera (*meno*, *heslo*). 
+              Obsahuje dôležité metódy **prihlas(*String*, *String*)** - metóda vytvorí nové grafické okno pre kuriera, **napiskomu(*String*)** - 
+              metóda určuje objednávateľa, **napiskdebyva(*String*)** - metóda určuje bydlisko objednávateľa, **napiskolko(*String*)** - 
+              metóda určuje cenu objednávky, **hotovy(*String*)**, **prepis(*Kurier*, *String*)** - 
+              prepíše súbor v ktorom sú údaje zachované tak aby už hotové objednávky tam neboli. Táto trieda dedí od triedy Pracovnik.'
 
 
-  -title: Kasa
-  content: 'je to trieda ktorá obsahuje základné údaje charakterizujúce kasu (meno, heslo). Obsahuje dôležitú metódu
-              prihlas(String, String) - metóda vytvorí nové grafické okno pre kasu, napiskomu(String). Táto trieda dedí od triedy Pracovnik.'
+  - title: Kasa
+    content: 'je to trieda ktorá obsahuje základné údaje charakterizujúce kasu (*meno*, *heslo*). Obsahuje dôležitú metódu
+              **prihlas(*String*, *String*)** - metóda vytvorí nové grafické okno pre kasu, **napiskomu(*String*)**. Táto trieda dedí od triedy Pracovnik.'
+
+
+  - title: Pracovnik 
+    content: 'obsahuje dôležité metódy **prihlas(*String*, *String*)** - metóda vytvorí nové grafické okno pre nejakého pracovníka, **napiskomu(*String*)** - metóda 
+              určuje objednávateľa, **napiscorobi(*String*)** - metóda určuje že pracovník aktuálne čo má robyť. Od tejto triedy dedia  triedy Casnik, 
+              Kuchar, Kurier, Kasa.'
+
+  - title: Host 
+    content: 'obsahuje dôležitú metódu **otvornoveokno(*String*, *String*)** - polymorfizmus. Táto trieda dedí od triedy HostParent.'
+
+  - title: OnlineHost 
+    content: 'obsahuje dôležitú metódu **otvornoveokno(*String*, *String*)** - polymorfizmus. Táto trieda dedí od triedy Pracovnik.'
+
+  - title: HostParent 
+    content: 'obsahuje dôležité metódy **otvornoveokno(*String*, *String*)** - polymorfizmus, **celacena()** - určuje cekový príjem, **subor(*HostParent*)** - 
+              objednávku s údajmi napíše do súboru. Od tejto triedy dedia  triedy Host a OnlineHost.'
+
+  - title: Ingrediencia 
+    content: 'obsahuje dôležitú metódu **Ingrediencia(*String*)**.'
+
+  - title: Jedlo 
+    content: 'obsahuje dôležité metódy  **zaklad()**, **sunka()**, **salama()**, **syr()**, **paradajka()**, **paprika()**, **kukurica()**, 
+              **sampiony()**, **napoj()** - metódy určujú
+              z čoho pozostáva objednávka, **konecnacena()** - polymorfizmus a metóda určuje cenu objednávky. Od tejto triedy dedia  triedy 
+              PolovicnaPorcia a VecsiaPorcia.'
+
+  - title: PolovicnaPorcia 
+    content: 'obsahuje dôležitú metódu **konecnacena()** - polymorfizmus.Táto trieda dedí od triedy Jedlo.'
+
+  - title: VecsiaPorcia 
+    content: 'obsahuje dôležitú metódu **konecnacena()**- polymorfizmus. Táto trieda dedí od triedy Jedlo.'
+
+  - title: Main  
+    content: 'obsahuje dôležitú metódu **main(*String[]*)**.'

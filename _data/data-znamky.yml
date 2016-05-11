@@ -13,3 +13,111 @@
 - title: PRPR
   vysledok: 'C'
   kredit: '6'
+
+- title: SEMPRPR
+  vysledok: 'Z'
+  kredit: '2'
+
+- title: TK
+  vysledok: 'Z'
+  kredit: '1'
+
+- title: FYZ
+  vysledok: 'B'
+  kredit: '6'
+
+- title: ML1
+  vysledok: 'A'
+  kredit: '6'
+
+- title: OOP
+  vysledok: 'C'
+  kredit: '6'
+
+- title: PAM
+  vysledok: 'B'
+  kredit: '5'
+
+- title: PAS
+  vysledok: 'B'
+  kredit: '6'
+
+- title: TK
+  vysledok: 'Z'
+  kredit: '1'
+
+- title: AZA
+  vysledok: 'B'
+  kredit: '6'
+
+- title: DSA
+  vysledok: 'D'
+  kredit: '6'
+
+- title: OS
+  vysledok: 'E'
+  kredit: '6'
+
+- title: PIKT
+  vysledok: 'C'
+  kredit: '5'
+
+- title: TZI
+  vysledok: 'A'
+  kredit: '6'
+
+- title: DBS
+  vysledok: 'C'
+  kredit: '6'
+
+- title: PKS
+  vysledok: 'C'
+  kredit: '6'
+
+- title: PSI
+  vysledok: 'C'
+  kredit: '6'
+
+- title: TEAP
+  vysledok: 'A'
+  kredit: '6'
+
+- title: UI
+  vysledok: 'C'
+  kredit: '6'
+
+- title: BP1
+  vysledok: 'B'
+  kredit: '3'
+
+- title: ICP
+  vysledok: 'D'
+  kredit: '6'
+
+- title: ME
+  vysledok: 'D'
+  kredit: '5'
+
+- title: PARALPR
+  vysledok: 'E'
+  kredit: '6'
+
+- title: PIB
+  vysledok: 'E'
+  kredit: '6'
+
+- title: PPGSO
+  vysledok: 'D'
+  kredit: '6'
+
+- title: VYBER_TK
+  vysledok: 'Z'
+  kredit: '1'
+
+- title: AJ
+  vysledok: 'B'
+  kredit: '2'
+
+- title: MA
+  vysledok: 'B'
+  kredit: '7'

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>/omne/</loc>
+</url>
+<url>
+<loc>/</loc>
+</url>
+<url>
+<loc>/studium/predmety/oop.html</loc>
+</url>
+<url>
+<loc>/studium/predmety/pis.html</loc>
+</url>
+<url>
+<loc>/studium/projekty.html</loc>
+</url>
+<url>
+<loc>/studium/predmety/psi.html</loc>
+</url>
+<url>
+<loc>/studium/predmety/web.html</loc>
+</url>
+<url>
+<loc>/studium/znamky.html</loc>
+</url>
+</urlset>

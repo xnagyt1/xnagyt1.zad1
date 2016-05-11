@@ -1,5 +1,6 @@
 markdown: kramdown
 baseurl: /xnagyt1.zad1
 exclude: ['README.md']
-# gems:
-#   - jekyll-autolink_email
+gems: 
+  - jekyll-sitemap
+  
