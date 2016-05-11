@@ -1,0 +1,73 @@
+body {
+	background: url("pozadie.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 3px solid #4CAF50;
+    background-color: #333;
+}
+
+li.nav {
+    float: left;
+}
+
+div.foo {
+	background-color: #333;
+	color: white;
+	padding-left: 5px;
+	border: 3px solid #4CAF50;
+	border-radius: 8px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+table {
+	background: #333;
+	
+    border: 3px solid black;
+
+	border-radius: 8px;
+}
+th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-radius: 4px;
+	
+
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table tr:nth-child(even) {
+    background-color: #ddd;
+}
+table tr:nth-child(odd) {
+   background-color:#fff;
+}
+table th	{
+    background-color: black;
+    color: white;
+}
+
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+background-color:#4CAF50;
+}

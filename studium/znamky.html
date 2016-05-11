@@ -1,0 +1,26 @@
+---
+layout: layout2
+---
+
+<h1>Moje znamky</h1>
+
+<div>
+<table style="width:100%">
+				 <tr>
+			    <th>Nazov predmetu</th>
+			    <th>Vysledok</th>
+			    <th>Kredit</th>
+			  </tr>
+{% for znam in site.data.data-znamky %}
+
+			  <tr>
+			    <td>{{znam.title}}</td>
+			    <td>{{znam.vysledok}}</td>
+			    <td>{{znam.kredit}}</td>
+			  </tr>
+
+{%  endfor %}
+
+			</table> 
+</div>
+

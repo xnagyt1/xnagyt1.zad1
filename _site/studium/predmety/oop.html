@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WEB1</title>
+    <link rel="stylesheet" href="/css/mycss.css">
+  </head>
+  <body>
+  
+  	<div>
+  		<ul class="nav">
+	<li class="nav"><a href="/" class="">Domov</a></li>
+	<li class="nav"><a href="/omne" class="">O mne</a></li>
+	<li class="nav"><a href="/studium/znamky.html" class="">Štúdium</a></li>
+</ul>
+  	</div>
+
+  	<div>
+  		<h1>Moje studium</h1>
+
+<div>
+	<ul class="nav">
+		<li class="nav"><a href="/studium/znamky.html" class="">Znamky</a></li>
+		<li class="nav"><a href="/studium/predmety/oop.html" class=" active ">Projekty</a></li>
+	</ul>
+
+</div>
+
+<div>
+<h1>Moje Projekty</h1>
+
+<div>
+	<ul class="nav">
+		<li class="nav"><a href="/studium/predmety/oop.html" class=" active ">OOP</a></li>
+		<li class="nav"><a href="/studium/predmety/pis.html" class="">PIS</a></li>
+		<li class="nav"><a href="/studium/predmety/psi.html" class="">PSI</a></li>
+		<li class="nav"><a href="/studium/predmety/web.html" class="">WEB</a></li>
+	</ul>
+
+</div>
+
+<div>
+<h1>OOP</h1>
+
+<h2>Zadanie</h2>
+
+
+<p>Základnou myšlienkou by bolo premyslieť si software pre reštauráciu, v ktorej by sa jedlo dalo objednávať aj on-line, aj na donášku domov, pričom by sa jedlo samozrejme mohlo objednávať aj v samotnej reštaurácii. 
+Pre dôležitosť rýchlej spätnej väzby a pre ľahkú kombinovateľnosť jedla sa bude jednať o pizzériu.  
+V zariadení sa dá objednať viacero druhov píz a nápojov. Každý si môže na mieste svoju pizzu zložiť podľa vlastnej  predstavy. Existuje základné cesto, na to viac vrstiev oblohy, z niektorých ingrediencií aj viac porcií. V reštaurácii je špeciálne zariadenie, ktoré je pri stole, cez ktoré si môžu pomocou tohto programu aj zostaviť jedlo, aj objednať. Po objednaní, vidí hosť, koľkí je v poradí, to znamená, že bude mať predstavu o dobe čakania. Účet treba zaplatiť pred odchodom. 
+Pomocou internetovej stránky firmy si bárskto s prístupom na sieť môže objednať takisto podľa vlastných predstáv svoju pizzu, objaví sa mu, koľkí je v poradí objednávok na donášku. Platí pri dodaní tovaru. 
+Údaje sú zbierané do databázy, ku ktorej má obsluha  s rôznou hierarchiou rôzny prístup.  Napr. objednávajúci vidí iba svoju objednávku a koľkí je v poradí. Hlavný kuchár vidí ako má pripraviť ďalšiu oblohu (podľa objednávky), vidí, či je jedlo doručované kuriérom, nevidí však, komu to pripravuje, čo je pre neho nepodstatné. Čašník a kuriér vidí na obrazovke, komu a čo má doručiť. Po vynesení a doručení jedla sa  objednávka ostatných posunie v poradí. Na on-line účte hosťa sa pridá položka, koľko má zaplatiť. Čašník, u ktorého je možno platiť, vidí účty aj priebežne, pred odchodom sa mu položky sčítajú, je to dôležité pri prípadnej reklamácii. Vedúci reštaurácie má prístup ku všetkým údajom, má možnosť sledovať priebeh celého procesu, pri prípadnej chybe programu alebo procesu je takto efektívnejšie definovaný problém.
+</p>
+
+<h2>Triedy</h2>
+
+
+	<li>
+		<h3>Casnik</h3>
+
+		<p>je to trieda ktorá obsahuje základné údaje charakterizujúce casnika (meno, heslo). Obsahuje dôležité metódy <strong>prihlas(String, String)</strong> - metóda vytvorí nové grafické okno pre casníka, napiskomu(String) - metóda určuje objednávateľa, <strong>napiskdesedi (<em>String</em>)</strong> - metóda určuje miesto objednávateľa, napiskolko (String) - metóda určuje cenu objednávky, hotovy(String), <strong>prepis(Casnik, String)</strong> - prepíše súbor v ktorom sú údaje zachované tak aby už hotové objednávky tam neboli . Táto trieda dedí od triedy Pracovnik.</p>
+
+
+	</li>
+
+
+	<li>
+		<h3>Kuchar</h3>
+
+		<p>je to trieda ktorá obsahuje základné údaje charakterizujúce kuchára (meno, heslo). Obsahuje dôležité metódy <strong>prihlas(String, String)</strong> - metóda vytvorí nové grafické okno pre kuchára, napiscorobi(String) - metóda určuje že kuchár aktuálne čo má robyť, <strong>hotovy(String)</strong>, <strong>prepis(Kuchar)</strong> - prepíše súbor v ktorom sú údaje zachované tak aby už hotové objednávky tam neboli a už hotové objednávky podľa objednávateľa zapíše do iných súborov. Táto trieda dedí od triedy Pracovnik.</p>
+
+
+	</li>
+
+
+	<li>
+		<h3>Kurier</h3>
+
+		<p>je to trieda ktorá obsahuje základné údaje charakterizujúce kasu (meno, heslo). Obsahuje dôležitú metódu prihlas(String, String) - metóda vytvorí nové grafické okno pre kasu, napiskomu(String). Táto trieda dedí od triedy Pracovnik.</p>
+
+
+	</li>
+
+
+
+</div>
+
+</div>
+  	</div>
+  		<footer>
+	
+<div class="foo">
+	<p>Tibor Nagy</p>
+	<p>Webove publikovanie</p>
+	<p>11 May 2016</p>
+
+
+</div>
+
+
+</footer>
+  	<div>
+
+  	</div>
+  </body>
+</html>

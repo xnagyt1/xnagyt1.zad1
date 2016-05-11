@@ -1,0 +1,25 @@
+- title: Casnik
+  content: 'je to trieda ktorá obsahuje základné údaje charakterizujúce casnika (meno, heslo). 
+            Obsahuje dôležité metódy **prihlas(String, String)** - metóda vytvorí nové grafické okno pre casníka, napiskomu(String) - 
+            metóda určuje objednávateľa, **napiskdesedi (*String*)** - metóda určuje miesto objednávateľa, napiskolko (String) - 
+            metóda určuje cenu objednávky, hotovy(String), **prepis(Casnik, String)** - 
+            prepíše súbor v ktorom sú údaje zachované tak aby už hotové objednávky tam neboli . Táto trieda dedí od triedy Pracovnik.'
+
+- title: Kuchar
+  content: 'je to trieda ktorá obsahuje základné údaje charakterizujúce kuchára (meno, heslo). 
+          Obsahuje dôležité metódy **prihlas(String, String)** - metóda vytvorí nové grafické okno pre kuchára, napiscorobi(String) - 
+          metóda určuje že kuchár aktuálne čo má robyť, **hotovy(String)**, **prepis(Kuchar)** - 
+          prepíše súbor v ktorom sú údaje zachované tak aby už hotové objednávky tam neboli a 
+          už hotové objednávky podľa objednávateľa zapíše do iných súborov. Táto trieda dedí od triedy Pracovnik.'
+
+- title: Kurier
+  content: 'je to trieda ktorá obsahuje základné údaje charakterizujúce kuriera (meno, heslo). 
+            Obsahuje dôležité metódy prihlas(String, String) - metóda vytvorí nové grafické okno pre kuriera, napiskomu(String) - 
+            metóda určuje objednávateľa, napiskdebyva (String) - metóda určuje bydlisko objednávateľa, napiskolko (String) - 
+            metóda určuje cenu objednávky, hotovy(String), prepis(Kurier, String) - 
+            prepíše súbor v ktorom sú údaje zachované tak aby už hotové objednávky tam neboli. Táto trieda dedí od triedy Pracovnik.'
+
+
+  -title: Kasa
+  content: 'je to trieda ktorá obsahuje základné údaje charakterizujúce kasu (meno, heslo). Obsahuje dôležitú metódu
+              prihlas(String, String) - metóda vytvorí nové grafické okno pre kasu, napiskomu(String). Táto trieda dedí od triedy Pracovnik.'

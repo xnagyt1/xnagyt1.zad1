@@ -1,0 +1,18 @@
+---
+layout: layout1
+---
+
+<h1>Moje studium</h1>
+
+<div>
+	<ul class="nav">
+		<li class="nav"><a href="{{site.baseurl}}/studium/znamky.html" class="{% if page.url contains 'znamky' %} active {% endif %}">Znamky</a></li>
+		<li class="nav"><a href="{{site.baseurl}}/studium/predmety/oop.html" class="{% if page.url contains 'oop' %} active {% endif %}">Projekty</a></li>
+	</ul>
+
+</div>
+
+<div>
+{{content}}
+
+</div>
